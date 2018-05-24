@@ -1,10 +1,10 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "Malkist/version"
+require "malkist/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "Malkist"
+  spec.name          = "malkist"
   spec.version       = Malkist::VERSION
   spec.authors       = ["Ki Ageng Satria Pamungkas"]
   spec.email         = ["pamungkas.kiagengsatria@outlook.com"]
