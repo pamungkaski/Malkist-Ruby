@@ -27,8 +27,6 @@ module Malkist
 
       return [] unless res.is_a?(Net::HTTPSuccess)
 
-      body = {}
-
       body = JSON.parse(res.body)
 
       result = []
