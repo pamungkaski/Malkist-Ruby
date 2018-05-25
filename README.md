@@ -1,4 +1,5 @@
 # Malkist
+[![Build Status](https://travis-ci.com/pamungkaski/Malkist-Ruby.svg?branch=master)](https://travis-ci.com/pamungkaski/Malkist-Ruby)
 
 Simple Google Maps Web Service API Wrapper on ruby [Google Maps Web Service API](https://developers.google.com/maps/documentation/)
 
@@ -7,7 +8,7 @@ Simple Google Maps Web Service API Wrapper on ruby [Google Maps Web Service API]
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'Malkist'
+gem 'malkist'
 ```
 
 And then execute:
@@ -20,7 +21,15 @@ Or install it yourself as:
 
 ## Functionality
 
-* [ ] Distance Matrix API [link](https://developers.google.com/maps/documentation/distance-matrix/intro)
+* [x] Distance Matrix API [link](https://developers.google.com/maps/documentation/distance-matrix/intro)
+* [ ] Elevation API [link](https://developers.google.com/maps/documentation/elevation/intro)
+* [ ] Geolocation API [link](https://developers.google.com/maps/documentation/geolocation/intro)
+* [ ] Time Zone API [link](https://developers.google.com/maps/documentation/timezone/intro)
+* [ ] Directions API [link](https://developers.google.com/maps/documentation/directions/intro)
+* [ ] Roads API [link](https://developers.google.com/maps/documentation/roads/intro)
+* [ ] Geocoding [link](https://developers.google.com/maps/documentation/geocoding/intro)
+* [ ] Place API for Web [link](https://developers.google.com/maps/documentation/web-service/intro)
+
 
 ## Usage
 
